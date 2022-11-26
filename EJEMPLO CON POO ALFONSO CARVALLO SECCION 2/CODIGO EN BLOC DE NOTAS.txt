@@ -1,0 +1,63 @@
+// Alfonso Carvallo 
+// C.I 30.039.953 U.C:
+// PROGRAMACION 3. 
+//UNERG AIS
+                        //ALGORITMO BASICO CON EJEMPLOS DE CLASES, ATRIBUTOS, METODOS E INSTANCIAS, BAJO EL LENGUAJE DE C++
+                                                        //EJEMPLO DE UN AUTOMOVIL:
+
+
+#include <iostream>
+#include <windows.h>
+using namespace std; 
+//Clase
+
+class CarroGeepetta{
+
+//Atributos
+
+public: int year;
+public: int matricula; 
+public: char color;
+
+//Metodos 
+
+public:
+void EncenderMotor () {
+    system ("sonido de motor.mp3")
+    std::cout << "Se encendió el motor" << std::endl;
+
+}
+public:  
+void Acelerar () {
+        system ("acelerar.mp3")
+    std::cout << "El carro arranco.." << std::endl;
+}
+public: 
+void Frenar (){ 
+        system ("freno.mp3")
+    std::cout << "Se encendio el motor..." << std::endl;
+}
+
+//Instancias:
+CarroGeepetta Lamborghini;
+
+Lamborghini.year= 2018; 
+Lamborghini.matricula= 6541652132
+Lamborghini.color= 'A';I think you are working, answer me when you can bro I hope you like the video.
+std::cout << "El color del Auto es:" << Lamborghini.color << std::endl;
+
+CarroGeepetta Mustang;
+
+Mustang.year= 2007; 
+Mustang.matricula= 5415645
+Mustang.color= 'V';
+std::cout << "El color del Auto es:" << Mustang.color << std::endl;
+
+CarroGeepetta Ferrari;
+
+Ferrari.year= 2007; 
+Ferrari.matricula= 5415645
+Ferrari.color= 'R';
+std::cout << "El color del Auto es:" << Ferrari.color << std::endl;
+
+};
